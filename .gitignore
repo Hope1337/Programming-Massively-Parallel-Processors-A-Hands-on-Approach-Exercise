@@ -1,0 +1,64 @@
+# === Python build artifacts ===
+**/*.pyc
+**/*.pyo
+**/*.pyd
+**/__pycache__/
+**/*.so
+
+# === Build folders ===
+**/build*/
+**/dist/
+**/*.egg-info/
+**/.eggs/
+**/*.spec
+**/pip-wheel-metadata/
+**/*.manifest
+
+# === CMake, Make, Ninja, Visual Studio builds ===
+**/CMakeFiles/
+**/CMakeCache.txt
+**/cmake_install.cmake
+**/Makefile
+**/*.exe
+**/*.out
+**/*.obj
+**/*.o
+**/*.a
+**/*.lib
+**/*.dll
+**/*.exp
+**/*.pdb
+**/*.idb
+**/*.ilk
+
+# === CUDA build artifacts ===
+**/*.cu.o
+**/*.cubin
+**/*.ptx
+**/*.fatbin
+**/*.cu.d
+**/nvcc.*
+**/*.log
+
+# === Temporary files ===
+**/*.tmp
+**/*.log
+**/*.bak
+**/*.swp
+**/*.swo
+
+# === IDE/editor files ===
+**/.vscode/
+**/.idea/
+**/*.code-workspace
+
+# === Wheel & pip stuff ===
+**/*.whl
+**/*.egg
+**/.installed.cfg
+
+# === Others ===
+**/.cache/
+**/.pytest_cache/
+**/.mypy_cache/
+**/__pypackages__/
