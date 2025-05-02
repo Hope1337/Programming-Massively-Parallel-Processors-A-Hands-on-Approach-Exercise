@@ -2,11 +2,11 @@ from setuptools import setup
 from torch.utils.cpp_extension import BuildExtension, CUDAExtension
 
 setup(
-    name='vector_add',
+    name='Ex3',
     ext_modules=[
-        CUDAExtension('hihi', [
-            'lablib/vector_add.cpp',
-            'lablib/vector_add_cuda.cu',
+        CUDAExtension('Ex3', [
+            'lablib/3a.cpp',
+            'lablib/3a_cuda.cu',
         ]),   
     ],
     cmdclass={
